@@ -86,10 +86,10 @@ h3 {
 <div class="item">
  
 <?php
-include_once 'bangla-calendar/class.banglaDate.php';
+include_once 'class.banglaDate.php';
 $bn = new BanglaDate(time());
 $an = ($bn->get_date());
-include_once 'bangla-calendar/banglayear.php';
+include_once 'banglayear.php';
 echo $DateAndTime;?><br>
 
 <h3><strong>   প্রভাতী  </strong></h3>
